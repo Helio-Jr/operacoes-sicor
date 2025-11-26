@@ -137,28 +137,38 @@ Importados para o Power BI.
 
 ---
 
-# 6. Análise de Dados
+# 6. Modelagem de Dados
 
-## 6.1. Volume e Distribuição
+## 6.1. Modelagem Inicial
+
+![Dashboard SICOR](imagens/modelagem_inicial.png)
+
+## 6.2. Modelagem Final
+
+![Dashboard SICOR](imagens/modelagem_final.png)
+
+# 7. Análise de Dados
+
+## 7.1. Volume e Distribuição
 - Estados com maior volume de contratação  
 - Comparação dos valores médios por UF  
 - Distribuição por tipo de empreendimento  
 
-## 6.2. Inadimplência
+## 7.2. Inadimplência
 Utilizando o critério `CD_SITUACAO_OPERACAO = 12`:
 - Taxa geral de inadimplência  
 - Número médio de meses inadimplentes  
 - Ranking das IFs por valor inadimplente  
 - Comparação entre valores contratados e atraso
 
-## 6.3. Correlações
+## 7.3. Correlações
 - Valor contratado × meses inadimplentes  
 - Estado × percentual de inadimplência  
 - Análise de modalidades com maior risco  
 
 ---
 
-# 7. Visualização dos Dados (Power BI)
+# 8. Visualização dos Dados (Power BI)
 
 ## Página 1 – Visão Operação
 
@@ -169,6 +179,7 @@ Tela inicial do relatório.
 Contém uma breve descrição do painel, link para a documentação e possui botões de navegação para as demais páginas:
 - **Operações**
 - **Saldos**
+- **Auditoria**
 ---
 
 ## 2. Operações
@@ -182,7 +193,12 @@ Mostra uma análise sobre o saldo das operações contratadas.
 
 ![Dashboard SICOR](imagens/painel_sicor_saldos.png)
 
-# 8. Produto Comunicacional
+## 4. Auditoria
+Possível visualizar as operações únicas de maneira analítica.
+
+![Dashboard SICOR](imagens/painel_sicor_auditoria.png)
+
+# 9. Produto Comunicacional
 
 ## Proposta: Reportagem Multimídia + Dashboard Interativo
 
@@ -205,7 +221,7 @@ Transformar dados técnicos em informação clara, visual e acessível para:
 
 ---
 
-# 9. Conclusão
+# 10. Conclusão
 
 A análise descritiva baseada nos dados do SICOR permitiu identificar tendências relevantes nas operações de crédito rural, destacando padrões de inadimplência e variações regionais significativas.
 
@@ -220,7 +236,7 @@ O trabalho atende aos objetivos da UC de Análise de Dados e Big Data, demonstra
 
 ---
 
-# 10. Anexos
+# 11. Anexos
 
 ### Fontes Oficiais da Base SICOR
 - **Fonte principal dos dados (BCB – Tabelas de Crédito Rural / Proagro):**  
